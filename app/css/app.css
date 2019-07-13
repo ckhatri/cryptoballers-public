@@ -1,0 +1,43 @@
+/* TEMPLATE STYLES */
+
+.flex-center {
+    color: #fff;
+}
+
+.intro-1 {
+    background: url("../img/intro-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+@media only screen and (max-width: 667px) {
+    .display-3 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+    .display-3 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+.metamask {
+  padding-right: 10px;
+}
